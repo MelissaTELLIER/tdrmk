@@ -25,7 +25,7 @@ cadeau<- function (prenom){
 
   if (prenom == "Marco"){
 
-    paste("vous avez perdu")
+    paste("Je vous offre un voyage à la destination de votre choix")
   }
 }
 
