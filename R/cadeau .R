@@ -23,11 +23,11 @@ hello <- function() {
 
 cadeau<- function (prenom){
 
-  if (prenom == "Marco"){
+  if (prenom == "Marco")
 
     paste("Je vous offre un voyage à la destination de votre choix")
-  }
-  if (prenom == "Yosra"){
+  else{
+  if (prenom == "Yosra")
     past("Je vous offre un voyage")
     }
 }
