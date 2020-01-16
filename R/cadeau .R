@@ -27,9 +27,13 @@ cadeau<- function (prenom){
 
     paste("Je vous offre un voyage à la destination de votre choix")
   }
+  if (prenom == "Yosra"){
+    past("Je vous offre un voyage")
+    }
 }
 
 cadeau("Marco")
+cadeau("Yosra")
 
 
 
